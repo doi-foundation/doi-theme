@@ -1,0 +1,22 @@
+section.home-infos {
+    background-color: $background-grey;
+    .title, .maintext, .link {
+        margin-top:20px;
+    }
+    .title {
+        font-weight: bold;
+    }
+    .maintext {
+        font-size:0.8rem;
+    }
+    .row {
+        width:80%;
+        margin:0 auto;
+    }
+    .icon {
+        display:inline-block;
+        padding: 10px;
+        border-radius:50%;
+        background-color: $background-orange;
+    }
+}

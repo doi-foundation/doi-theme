@@ -1,9 +1,9 @@
-main, body > header {
+body > header, .homepage-header {
     width:80%;
     margin:0 auto;
 }
 header {
-    background-color:lightblue;
+   
 }
 .row {
     display:flex;
