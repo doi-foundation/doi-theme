@@ -1,18 +1,39 @@
+main, body > header {
+    width:80%;
+    margin:0 auto;
+}
+header {
+    background-color:lightblue;
+}
 .row {
     display:flex;
+    padding: 40px 0;
 }
 .column {
     flex:1;
-    .content {
-        margin: 0;
-        position: relative;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
+    height:25vh;
+    padding:20px;
+    &.text {
+        .content {
+            margin: 0;
+            position: relative;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    }
+    &.image {
+        .content {
+            height:100%;
+            width:100%;
+            background-size:contain;
+            background-repeat:no-repeat;
+            background-position: center;
+        }
     }
 }
 @media screen and (max-width: 720px) {
     .column {
         flex:none;
     }
-  }
+}

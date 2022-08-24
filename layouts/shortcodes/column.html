@@ -1,5 +1,5 @@
-<div class="column">
-<div class="content">
+<div class="column {{ .Get "class" }}">
+<div class="content" style="background-image: url('{{ .Get "src" }}');">
 {{ .Inner }}
 </div>
 </div>
