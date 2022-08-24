@@ -1,0 +1,23 @@
+.sticky-socials {
+    position:fixed;
+    right:10px;;
+    top:45vh;
+    z-index:100;
+    background-color:transparent;
+
+   
+    ul {
+        padding-left:0;
+        li {
+            list-style:none;
+            margin-left:20px;
+            font-size:1.5rem;
+            a {
+                color:$main-font-color;
+                &:hover {
+                    color:#fff;
+                }
+            }
+        }
+    }
+}

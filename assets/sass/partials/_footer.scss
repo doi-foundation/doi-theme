@@ -1,0 +1,69 @@
+footer {
+
+    height:40vh;
+    background: #000;
+    color:#fff;
+
+    .start,
+    .end,
+    .reg {
+        font-weight:bold;
+        font-size:2.4rem;
+        text-transform: none;
+    }
+
+    .start {
+        background-color: $background-orange;
+        border-radius: 50%;
+        padding:5px;
+        color:#000;
+        display:inline-block;
+    }
+    .end {
+        margin-left:6px;
+        color:#fff;
+        display:block;
+    }
+    .reg {        
+        font-size:0.8rem;
+        line-height:2rem;
+        vertical-align:top;
+        color:#fff;
+        display:inline-block;
+        font-weight:normal;
+    }
+
+
+
+    .row {
+        width:80%;
+        margin:0 auto;
+        
+    }
+    ul li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color:#fff;
+    }
+    .copyright {
+        flex-basis:75%;
+    }
+    .socials {
+        flex-basis:25%;
+        text-align:right;
+       
+        ul {
+            li {
+                list-style:none;
+                display:inline-block;
+                margin-left:20px;
+                font-size:1.5rem;
+            }
+        }
+    }
+
+
+}

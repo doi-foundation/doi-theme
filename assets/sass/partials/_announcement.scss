@@ -20,10 +20,15 @@ section.home-announcement {
     }
     .left {
         flex-basis:40%;
-        background-size: 160%;
-        background-position:top center;
-        background-repeat:no-repeat;
         height:100%;
+        .wrapper {
+            background-color:#fff;
+            display:inline-block;
+            border-radius: 50%;
+            img {
+                padding:30px;
+            }
+        }
     }
     
     .right {
