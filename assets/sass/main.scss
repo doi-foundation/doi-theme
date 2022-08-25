@@ -8,7 +8,8 @@
         "partials/resolve",
         "partials/footer",
         "partials/header",
-        "partials/socials_side";
+        "partials/socials_side",
+        "partials/single/top";
 
 .link {
     a {
@@ -45,7 +46,7 @@
     }
 }
 
-fa {
+.fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
