@@ -1,5 +1,5 @@
 section.single-top {
-    width:80%;
+    width: $content-width;
     margin:0 auto;
     
     height:50vh;
@@ -14,7 +14,7 @@ section.single-top {
     .right {
         display:flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         div {
         }
         .maintext {
@@ -39,6 +39,7 @@ section.single-top {
             left:15%;
             right:0;
             bottom:0;
+            width:220px;
         }
         h1 {
             font-size:1rem;

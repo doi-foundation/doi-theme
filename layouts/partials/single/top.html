@@ -6,12 +6,12 @@
             </div>
             <div class="texts">
                 <h1>{{ .imagetop }}</h1>
-                <h2>{{ .imagemain }}</h2>
+                <h2>{{ .imagemain   | markdownify}}</h2>
             </div>
         </div>
         <div class="col right">
             <div class="maintext">{{ .maintext }}</div>
-            <div class="subtext">{{ .subtext }}</div>
+            <div class="subtext">{{ .subtext  | markdownify  }}</div>
         </div>        
 
     </div>

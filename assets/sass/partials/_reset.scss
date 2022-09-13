@@ -2,7 +2,7 @@ body {
     color: $main-font-color;
 }
 body > header, .homepage-header {
-    width:80%;
+    width: $content-width;
     margin:0 auto;
 
 }
