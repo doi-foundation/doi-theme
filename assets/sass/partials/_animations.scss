@@ -1,0 +1,51 @@
+.circle-line {
+
+    .path.circle {
+        stroke-width: 10;
+        stroke: #FAB70C;
+        fill:  transparent;
+        stroke-dasharray: 32;
+        stroke-dashoffset: 32;
+    }
+    .path.line {
+        stroke-width: 5;
+        stroke: #FAB70C;
+        fill:  transparent;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+    }
+}
+
+.circle-line-lower {
+
+    .path.circle {
+        stroke-width: 10;
+        stroke: #5c7292;
+        fill:  transparent;
+        stroke-dasharray: 32;
+        stroke-dashoffset: 32;
+    }
+    .path.line {
+        stroke-width: 5;
+        stroke: #5c7292;
+        fill:  transparent;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+    }
+}
+line.line-animation {
+    animation: dash 3s linear;
+    animation-fill-mode: forwards;
+}
+circle.circle-animation {    
+    animation: dash 1s linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
