@@ -2,16 +2,53 @@
     <main aria-role="main">
       <header class="homepage-header">
       </header>
-      <div class="homepage-content">
+      <div class="doi">
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{ with .Site.Data.identifier }}
+        {{ with .Site.Data.doi }}
           {{ with .top }}
             {{ partial "single/top.html" . }}
           {{ end }}
-          {{ with .graphics }}
-            {{ partial "single/graphics.html" . }}
-          {{ end }}        
+          
+          {{ partial "doi/graphics_what.html" . }}
+
+          {{ with .statistics }}
+            {{ partial "doi/how_many.html" . }}
+          {{ end }}
+          
+          
+          {{ partial "doi/graphics_why.html" . }}
+
+          {{ with .what }}
+            {{ partial "doi/what.html" . }}
+          {{ end }}
+          
+          {{ with .benefits }}
+            {{ partial "doi/benefits.html" . }}
+          {{ end }}
+
+          
+          {{ partial "doi/growth_graph.html" . }}
+
+          {{ with .how_resolve }}
+            {{ partial "doi/how_resolve.html" . }}
+          {{ end }}
+
+          {{ with .how_get }}
+            {{ partial "doi/how_get.html" . }}
+          {{ end }}
+
+          
+          {{ partial "doi/hits_graph.html" . }}
+
+          {{ with .standards }}
+            {{ partial "doi/standards.html" . }}
+          {{ end }}
+
+          
         {{ end }}
+
+        
+        {{ partial "socials-side.html" . }}
       </div>
     </main>
 {{ end }}
