@@ -29,8 +29,8 @@
           
           {{ partial "doi/growth_graph.html" . }}
 
-          {{ with .how_resolve }}
-            {{ partial "doi/how_resolve.html" . }}
+          {{ with .infos }}
+            {{ partial "single/infos.html" . }}
           {{ end }}
 
           {{ with .how_get }}

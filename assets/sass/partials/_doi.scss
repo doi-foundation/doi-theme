@@ -23,8 +23,185 @@
             left:0;
             width:100%;
             height:100%;
-            border:1px solid green;
             z-index:-2;
         }
     }
+    .graphics-why {
+        position:relative;
+        background-color: $background-grey;
+        z-index:-1;
+        .row {
+            width: $content-width;
+            margin: 0 auto;
+            display:flex;
+            justify-content:center;
+            padding:0;
+            div {
+                flex:0 1 20%;
+                text-align:center;
+            }
+        }
+        .progress {
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            z-index:-2;
+        }
+    }
+    .how-many {
+        background-color: $background-blue;
+        .title {
+            color:#fff;
+            font-size: 40px;            
+            font-family: "Futura Bold";
+            text-align:center;
+            text-transform: uppercase;
+        }
+        .row.titlerow {
+            padding-top:80px;
+            padding-bottom:0;
+        }
+        .row.numbers {
+            padding-top:20px;
+            padding-bottom:80px;
+        }
+        .row {
+            width:$content-width;
+            margin:0 auto;
+            .col {
+                text-align: center;
+                .bignumber {
+                    color: $background-orange;
+                    font-family: "Futura Bold";
+                    font-size: 40px;
+                    display:block;
+                }
+                .subtext {
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .what-is {
+        background-color: $background-grey;
+
+        .title {
+            display:block;            
+            font-family: "Futura Bold";
+            font-size:21px;
+            margin-bottom:80px;
+        }
+        .start,
+        .end,
+        .reg {
+            display:inline-block;
+            color:#000;
+            font-weight:bold;
+            font-size:2.8rem;
+            font-family: "Futura Bold";
+        }
+    
+        .start {
+            background-color: $background-orange;
+            border-radius: 50%;
+            padding:5px;
+        }
+        .end {
+            margin-left:6px;
+        }
+        .reg {        
+            font-size:0.8rem;
+            line-height:2rem;
+            vertical-align:top;
+        }
+
+
+        .row {
+            width: $content-width;
+            margin: 0 auto;
+            display:flex;
+            .col {
+                align-self: center;
+                .point {
+                    
+                    font-family: "Futura Bold";
+                    color:#000;
+                    display:flex;
+                    align-items: center;
+                    margin:80px 0;
+                    .index {
+                        color:#fff;
+                        width:50px;
+                        height:50px;                    
+                        border-radius:50%;
+                        font-family: "Futura Bold";
+                        font-size: 40px;
+                        display: inline-flex; /* or inline-flex */
+                        align-items: center; 
+                        justify-content: center;
+                        margin-right:40px;
+
+                    }
+                    .text {
+                        
+                    }
+                }
+            }
+        }
+
+    }
+    .benefits {
+        width: $content-width;
+        margin:0 auto;
+        .heading {
+            font-family: "Futura Bold";
+            font-size:21px;
+        }
+        .row {
+            display:flex;
+            .col {
+                .title {                             
+                    font-family: "Futura Bold";
+                    font-size:21px;
+                }
+                .icon {
+                    color:#000;
+                    
+                    font-size: 40px;
+                    display: inline-flex; /* or inline-flex */
+                    align-items: center; 
+                    justify-content: center;
+
+                    padding: 10px;
+                    border-radius:50%;
+                    background-color: $background-orange;
+                    .material-symbols-outlined {
+                        font-size:32px;
+                    }
+                    margin-bottom:20px;
+
+                }
+            }
+        }
+        
+    }
+    
+
+    .growth-graph, .hits-graph {
+        width:$content-width;
+        margin:0 auto;
+        .heading {
+            font-family: "Futura Bold";
+            font-size:21px;
+        }
+        .image {
+            text-align:center;
+            img {
+                width: 80%;
+            }
+        }
+    }
+    
 }
