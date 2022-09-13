@@ -4,6 +4,9 @@ section.who-can-apply {
     background-repeat:no-repeat;
     background-size:contain;
     background-position: 65vw 0;
+    .link, .bottomtext {
+        margin-top:40px;
+    }
     .row { 
         width:$content-width;
         margin:0 auto;

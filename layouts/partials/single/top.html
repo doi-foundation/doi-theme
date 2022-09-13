@@ -12,6 +12,14 @@
         <div class="col right">
             <div class="maintext">{{ .maintext }}</div>
             <div class="subtext">{{ .subtext  | markdownify  }}</div>
+            {{ if .linkurl }}
+            <div class='link'>
+                <a href="{{ .linkurl }}">{{ .linktext }}</a>
+                <span class="material-symbols-outlined">
+                    arrow_right_alt
+                </span>           
+            </div>
+            {{ end }}
         </div>        
 
     </div>
