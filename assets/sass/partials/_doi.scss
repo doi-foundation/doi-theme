@@ -3,53 +3,86 @@
     }
 
     .graphics-what {
+        z-index:0;
         position:relative;
-        background-color: $background-grey;
-        z-index:-1;
-        .row {
-            width: $content-width;
-            margin: 0 auto;
-            display:flex;
-            justify-content:center;
-            padding:0;
-            div {
-                flex:0 1 20%;
-                text-align:center;
+        padding-bottom:100px;
+        background-color:$background-grey;
+        .title {     
+            padding-top:80px;       
+            font-size: 40px;            
+            font-family: "Futura Bold";
+            text-transform: uppercase;
+            text-align:center;
+            padding-bottom:40px;            
+            position:relative;
+            background-color:$background-grey;
+        }
+        .graphics-wrapper {
+            position:relative;
+            background-color:$background-grey;
+            z-index:-3;
+            .row {
+                width: $content-width;
+                margin: 0 auto;
+                display:flex;
+                justify-content:center;
+                padding:0;
+                div {
+                    flex:0 1 20%;
+                    text-align:center;
+                }
+            }
+            .circle-line {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                z-index:-2;
             }
         }
-        .progress {
-            position:absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            z-index:-2;
-        }
     }
+
     .graphics-why {
+        z-index:0;
         position:relative;
-        background-color: $background-grey;
-        z-index:-1;
-        .row {
-            width: $content-width;
-            margin: 0 auto;
-            display:flex;
-            justify-content:center;
-            padding:0;
-            div {
-                flex:0 1 20%;
-                text-align:center;
+        padding-bottom:100px;
+        .title {           
+            padding-top:80px;  
+            font-size: 40px;            
+            font-family: "Futura Bold";
+            text-transform: uppercase;
+            text-align:center;
+            padding-bottom:40px;            
+            position:relative;
+        }
+        .graphics-wrapper {
+            position:relative;
+            background-color:transparent;
+            
+            .row {
+                width: $content-width;
+                margin: 0 auto;
+                display:flex;
+                justify-content:center;
+                padding:0;
+                div {
+                    flex:0 1 20%;
+                    text-align:center;
+                }
+            }
+            .circle-line {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                z-index:-2;
             }
         }
-        .progress {
-            position:absolute;
-            top:0;
-            left:0;
-            width:100%;
-            height:100%;
-            z-index:-2;
-        }
     }
+
+
     .how-many {
         background-color: $background-blue;
         .title {
