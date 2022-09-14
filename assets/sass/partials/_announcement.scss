@@ -9,8 +9,12 @@ section.home-announcement {
         align-items: center;
         height: 100%;
     }
-    .title {
-        font-weight:bold;        
+    .title {        
+        font-family: "Futura Bold";       
+        font-size:21px;
+    }
+    .link-alt {
+        font-family: "Futura Bold";
     }
     .title, .maintext, .link-alt {
         margin-bottom:20px;

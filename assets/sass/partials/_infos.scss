@@ -3,11 +3,12 @@ section.home-infos {
     .title, .maintext, .link {
         margin-top:20px;
     }
-    .title {
-        font-weight: bold;
+    .title {        
+        font-family: "Futura Bold";
+        font-size:21px;
+        color:#000;
     }
     .maintext {
-        font-size:0.8rem;
     }
     .row {
         width: $content-width;
@@ -18,5 +19,9 @@ section.home-infos {
         padding: 10px;
         border-radius:50%;
         background-color: $background-orange;
+    }
+    .link {
+        
+        font-family: "Futura Bold";
     }
 }

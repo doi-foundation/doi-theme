@@ -8,7 +8,7 @@ footer {
     .end,
     .reg {
         font-weight:bold;
-        font-size:2.4rem;
+        font-size:3.4rem;
         text-transform: none;
     }
 
@@ -45,14 +45,20 @@ footer {
     }
     a {
         text-decoration: none;
+    }
+    ul li a {
+        line-height:40px;
+        text-decoration: none;
         text-transform: uppercase;
+        font-family: "Futura Bold";
         color:#fff;
     }
     .copyright {
-        flex-basis:75%;
+        flex-basis:80%;
+        font-size:0.9rem;
     }
     .socials {
-        flex-basis:25%;
+        flex-basis:20%;
         text-align:right;
        
         ul {

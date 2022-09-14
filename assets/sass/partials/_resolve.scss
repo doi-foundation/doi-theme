@@ -4,7 +4,9 @@ section.home-resolve {
     height:50vh;
     .title {
         text-transform:uppercase;
-        font-weight:bold;
+        font-family: "Futura Bold";
+        font-size:21px;
+        color:#000;
     }
 
     .row {
@@ -31,11 +33,14 @@ section.home-resolve {
         display:flex;
         padding: 20px 0;
     }
+    .submit {
+        text-transform:uppercase;
+        font-family: "Futura Bold";
+        color:#000;
+    }
     .input-content, .submit {
         flex:1;
         display:block;
-        font-size:1.1rem;
-
     }
     .input-content {
         flex-basis:70%;

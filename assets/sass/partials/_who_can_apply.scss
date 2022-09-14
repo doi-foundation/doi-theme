@@ -4,8 +4,17 @@ section.who-can-apply {
     background-repeat:no-repeat;
     background-size:contain;
     background-position: 65vw 0;
+
+    .title {        
+        font-family: "Futura Bold";
+        font-size:21px;
+        color:#000;
+    }
     .link, .bottomtext {
         margin-top:40px;
+    }
+    .link {
+        font-family: "Futura Bold";
     }
     .row { 
         width:$content-width;

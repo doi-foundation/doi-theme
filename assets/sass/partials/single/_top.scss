@@ -2,7 +2,7 @@ section.single-top {
     width: $content-width;
     margin:0 auto;
     
-    height:50vh;
+    min-height:60vh;
     .row {
         align-items: stretch;
         height: 100%;
@@ -19,16 +19,18 @@ section.single-top {
         }
         .maintext {
             flex-basis:30%;
-            font-size:1.2rem;
+            font-size:32px;
         }
         .subtext {
             padding: 10px 0 5px;
-            font-size: 0.9rem;
             flex-basis: 10%;
         }
         .link {
             flex-basis: 20%;
             padding-top:10px;
+            a {
+                font-family: "Futura Bold";
+            }
         }        
     }
     .left {
