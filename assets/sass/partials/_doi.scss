@@ -236,5 +236,64 @@
             }
         }
     }
+    .doi-get {
+        width:$content-width;
+        margin:0 auto;
+        .title {                               
+            font-family: "Futura Bold";
+            font-size:21px;
+        }
+        h2 {
+                                
+            font-family: "Futura Bold";
+            font-size:18px;
+        }
+        .row {
+            display:flex;
+        }
+        .col.left {
+            flex:1 0 60%;
+        }
+        .col.right {
+            flex:1 0 40%;
+            
+            background-size: 100%;
+            background-position:100px 100px;
+            background-repeat:no-repeat;
+            z-index:-1;
+            margin-right:-10%;
+        }
+    }
+    .standards {
+        width:$content-width;
+        margin:0 auto;
+        .title {                               
+            font-family: "Futura Bold";
+            font-size:21px;
+            margin-bottom:40px;
+        }
+        h2 {
+                                
+            font-family: "Futura Bold";
+            font-size:18px;
+        }
+        .row {
+            display:flex;
+            align-items: center;
+        }
+        .col.left {
+            flex:1 0 60%;
+        }
+        .col.right {
+            flex:1 0 40%;
+            text-align:center;
+            img {
+                width:200px;
+                height:auto;
+            }
+           
+        }
+
+    }
     
 }
