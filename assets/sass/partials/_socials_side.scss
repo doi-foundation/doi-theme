@@ -7,15 +7,16 @@
 
    
     ul {
-        padding-left:0;
+        padding: 16px;
+        background-color:#fff;
         li {
             list-style:none;
-            margin-left:20px;
             font-size:1.5rem;
+            text-align:center;
             a {
                 color:$main-font-color;
                 &:hover {
-                    color:#fff;
+                    color:$link-blue;
                 }
             }
         }

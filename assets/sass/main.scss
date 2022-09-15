@@ -21,10 +21,22 @@
         text-decoration: none;
         color: $link-color;
         font-weight:bold;
+        &:hover {
+            color: initial;
+        }
     }
     span {
         color:$link-arrow;
         font-size:1rem;
+    }
+}
+
+a {
+    color: $link-blue;
+    text-decoration:none;
+    &:hover {
+        color: $link-blue;
+        text-decoration:underline;
     }
 }
 .link-alt {    
@@ -43,6 +55,7 @@
         font-weight:bold;
         border-right:2px solid #fff;
         padding:12px 40px;
+        line-height: 2rem;
     }
     span {
         font-size:1rem;

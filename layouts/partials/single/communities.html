@@ -4,7 +4,10 @@
 
     {{ range sort . "weight" }}
         <div class="col" >
-            <div class="logo">{{ .logo }}&nbsp;</div>
+            <div class="logo">
+                <div style="background-image: url({{ .logo }});">
+                </div>
+            </div>
             <div class="texts">
                 <div class="title">{{ .title }}&nbsp;</div>
                 <div class="maintext">{{ .maintext | markdownify }}</div>
