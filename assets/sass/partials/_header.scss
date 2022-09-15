@@ -1,29 +1,10 @@
 header {
 
-    .start,
-    .end,
-    .reg {
-        display:inline-block;
-        color:#000;
-        font-weight:bold;
-        font-size:1.3rem;
-        font-family: "Futura Bold";
-    }
-
-    .start {
-        background-color: $background-orange;
-        border-radius: 50%;
-        padding:5px;
-    }
-    .end {
-        margin-left:6px;
-    }
-    .reg {        
-        font-size:0.8rem;
-        line-height:2rem;
-        vertical-align:top;
-    }
-    
+   .header-logo {
+    width:250px;
+    position:absolute;
+    top:-13px;
+   }    
 
     .col {
     }
