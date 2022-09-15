@@ -7,6 +7,12 @@
         position:relative;
         padding-bottom:100px;
         background-color:$background-grey;
+        .image {
+            transition: all 0.2s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
         .doi-example {
             display:inline-block;
             margin-top:20px;
@@ -30,6 +36,7 @@
             position:relative;
             background-color:$background-grey;
             z-index:-3;
+            padding-top:40px;
             .row {
                 width: $content-width;
                 margin: 0 auto;
@@ -64,6 +71,18 @@
             text-align:center;
             padding-bottom:40px;            
             position:relative;
+        }
+        .image {
+            
+            transition: all 0.2s;
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            img { 
+                height: 140px;
+                width: auto;
+            }
         }
         .graphics-wrapper {
             position:relative;
@@ -195,6 +214,13 @@
                         justify-content: center;
                         margin-right:40px;
                         flex-shrink:0;
+                        transition: all 0.2s;
+                    }
+                    &:hover {
+                        .index {
+                            height:60px;
+                            width:60px;
+                        }
                     }
                     .text {
                         
