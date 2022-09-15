@@ -242,7 +242,6 @@
             font-size:21px;
         }
         .row {
-            display:flex;
             .col {
                 .title {                             
                     font-family: "Futura Bold";
@@ -263,6 +262,9 @@
                         font-size:32px;
                     }
                     margin-bottom:20px;
+                    @media (max-width: $break-large) {
+                        margin-top:40px;
+                    }
 
                 }
             }
@@ -310,6 +312,10 @@
         background-size: contain;
         background-position:100% 100px;
         background-repeat:no-repeat;
+        
+        @media (max-width: $break-large) {
+            background-size: 0;
+        }
         z-index:-1;
         .title {                               
             font-family: "Futura Bold";
@@ -324,7 +330,6 @@
             width:$content-width;
             margin:0 auto;
             padding-bottom:80px;
-            display:flex;
         }
         .col.left {
             flex:1 0 60%;
@@ -347,7 +352,6 @@
             font-size:18px;
         }
         .row {
-            display:flex;
             align-items: center;
         }
         .col.left {
@@ -356,6 +360,9 @@
         .col.right {
             flex:1 0 40%;
             text-align:center;
+            @media (max-width: $break-large) {
+                margin-top:80px;
+            }
             img {
                 width:200px;
                 height:auto;

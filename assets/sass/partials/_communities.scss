@@ -11,6 +11,10 @@ section.communities {
         padding: 120px 0;
         .col {
             
+            @media (max-width: $break-large) {
+                width:100%;
+                margin-bottom:40px;
+            }
             flex-basis:49%;
             text-align:center;
             background-color:#fff;

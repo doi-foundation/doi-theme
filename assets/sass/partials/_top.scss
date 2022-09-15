@@ -1,6 +1,5 @@
 section.home-top {
     
-    height:70vh;
 
 
     .background {
@@ -12,6 +11,9 @@ section.home-top {
         background-position:center;
         background-repeat:no-repeat;
         z-index: -2;
+        @media (max-width: $break-medium) {            
+            display:none;
+        }
     }
 
     .background {
@@ -42,6 +44,7 @@ section.home-top {
         display:flex;
         flex-direction: column;
         justify-content: flex-end;
+        padding:80px 0;
         .maintext {
             flex-basis:30%;
             font-size:32px;
