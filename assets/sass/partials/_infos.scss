@@ -13,6 +13,7 @@ section.home-infos {
     .row {
         width: $content-width;
         margin:0 auto;
+        column-gap:80px;
     }
     .icon {
         display:inline-block;
@@ -20,8 +21,7 @@ section.home-infos {
         border-radius:50%;
         background-color: $background-orange;
     }
-    .link {
-        
+    .link {        
         font-family: "Futura Bold";
     }
 }

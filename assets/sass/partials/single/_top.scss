@@ -20,6 +20,7 @@ section.single-top {
         .maintext {
             flex-basis:30%;
             font-size:32px;
+            line-height:40px;
         }
         .subtext {
             padding: 10px 0 5px;
@@ -37,14 +38,14 @@ section.single-top {
         position:relative;
         .texts {
             position:absolute;
-            top:30%;
-            left:15%;
+            top:16%;
+            left:0;
             right:0;
             bottom:0;
-            width:220px;
+            width:400px;
         }
         h1 {
-            font-size:1rem;
+            font-size:23px;
             font-weight:bold;
             margin-bottom:0;
             color:$sub-font-color;
@@ -52,9 +53,9 @@ section.single-top {
         }
         h2 {
             color:#000;
-            font-size:3rem;
+            font-size:72px;
             font-weight:bold;
-            line-height:3rem;
+            line-height:66px;
             text-transform: uppercase;
             font-family: 'Futura Bold';
         }
@@ -67,8 +68,8 @@ section.single-top {
             position:relative;
             .circle {
                 position:absolute;
-                width:300px;
-                height:300px;
+                width:360px;
+                height:360px;
                 margin:0 auto;
                 background-color: $background-orange;
                 border-radius:50%;
