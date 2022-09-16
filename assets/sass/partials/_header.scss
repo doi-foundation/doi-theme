@@ -191,7 +191,7 @@ header {
                 }
                 
                 input[type="checkbox"]:checked ~ .menu-items {
-                    transform: translateX(-10vw);
+                    transform: translateX(0vw);
                 }
                 
                 input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
