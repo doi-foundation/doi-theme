@@ -19,6 +19,9 @@
 body::-webkit-scrollbar:horizontal {
     display: none;
 }
+body{
+    overflow-x:hidden;
+}
 
 .link {
     a {
