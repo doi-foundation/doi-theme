@@ -8,6 +8,11 @@ footer {
         left:74px;
         top:0;
         width:500px;
+        @media (max-width: $break-medium) {
+            width:300px;
+            position:relative;
+            left:0;
+        }
     }
     
     .row {

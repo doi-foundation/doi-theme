@@ -26,6 +26,10 @@ section.single-two-column {
         font-size:55px;
         line-height:55px;
         margin-bottom:20px;
+        @media (max-width: $break-small) {
+            font-size:40px;
+            line-height:42px;
+        }
     }
     
 }

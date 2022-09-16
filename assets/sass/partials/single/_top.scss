@@ -36,6 +36,8 @@ section.single-top {
         position:relative;
         min-height:400px;
         
+        @media (max-width: $break-medium) {
+        }
         
         .circle-wrapper {
             width:100%;
@@ -68,10 +70,14 @@ section.single-top {
                 h2 {
                     color:#000;
                     font-size:72px;
-                    font-weight:bold;
                     line-height:80px;
                     text-transform: uppercase;
                     font-family: 'Futura Bold';
+                    
+                    @media (max-width: $break-small) {
+                        font-size:40px;
+                        line-height:42px;
+                    }
                 }
             }
         }
