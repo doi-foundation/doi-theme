@@ -16,6 +16,10 @@
         "partials/doi",
         "partials/responsive";
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .link {
     a {
         text-transform: uppercase;
