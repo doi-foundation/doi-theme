@@ -1,9 +1,12 @@
 <header>
 	<div class="row">
 		<div class="col logo">			
-			<a href="{{ .Site.BaseURL }}"><img class='header-logo' src="/images/logos/DOI Logo-Landscape RGB.svg" /></a>			
+			<a href="{{ .Site.BaseURL }}"><img class='header-logo' src="/images/logos/header_logo_cropped.png" /></a>			
 		</div>
-		<div class="col nav">
+	</div>
+	
+	<div class="navigation-container">
+		<div class="nav">
 			<nav>
 				<input type="checkbox" name="" id="">
 				<div class="hamburger-lines">
@@ -14,7 +17,17 @@
 				<ul class="menu-items">
 					{{ with .Site.Menus.main }}
 						{{ range . }}
-							<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+						
+
+							<li><a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    							{{ if .HasChildren }}
+									<ul class="submenu">
+										{{ range .Children }}
+											<li><a href="{{ .URL | relURL }}">{{ .Name }}</a>
+										{{ end }}
+									</ul>
+								{{ end }}
+							</li>
 						{{ end }}
 					{{ end }}
 				</ul>
