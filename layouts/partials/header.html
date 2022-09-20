@@ -16,10 +16,17 @@
 				</div>
 				<ul class="menu-items">
 					{{ with .Site.Menus.main }}
-						{{ range . }}
-						
+						{{ range . }}				
 
-							<li><a href="{{ .URL | relURL }}">{{ .Name }}</a>
+							<li>
+								{{ if .Params.nolink }}
+								<span class='nolink'>{{ .Name }}</span>
+								<span class="more material-symbols-outlined">
+									expand_more
+								</span>
+								{{ else }}
+								<a href="{{ .URL | relURL }}">{{ .Name }}</a>
+								{{ end }}
     							{{ if .HasChildren }}
 									<ul class="submenu">
 										{{ range .Children }}
